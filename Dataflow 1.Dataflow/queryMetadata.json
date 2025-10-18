@@ -1,0 +1,32 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "gatewayObjectId": "18440aa0-cbdc-49cf-b195-2fc4e09c9977",
+  "queriesMetadata": {
+    "Salary_Data": {
+      "queryId": "79963e00-8fe8-4784-aa02-d937460a0eb8",
+      "queryName": "Salary_Data"
+    },
+    "Salary_Data_DataDestination": {
+      "queryId": "206009ba-e09b-4ac1-861d-baacfaa610f3",
+      "queryName": "Salary_Data_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"18440aa0-cbdc-49cf-b195-2fc4e09c9977\",\"DatasourceId\":\"b06c367b-b6e3-4496-a21b-4ab4cdb8e082\"}"
+    },
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"18440aa0-cbdc-49cf-b195-2fc4e09c9977\",\"DatasourceId\":\"dd1776db-5666-4c55-82c7-c002751b86ae\"}"
+    }
+  ]
+}
