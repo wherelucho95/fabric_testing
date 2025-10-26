@@ -12,7 +12,7 @@ in
 shared Salary_Data_DataDestination = let
   Pattern = Fabric.Warehouse([HierarchicalNavigation = null, CreateNavigationProperties = false]),
   Navigation_1 = Pattern{[workspaceId = "bf39c7eb-674e-42a1-a9d4-cc490c8fbec0"]}[Data],
-  Navigation_2 = Navigation_1{[warehouseId = "7e0f0412-041d-48e5-9d74-b1d8622e975c"]}[Data],
+  Navigation_2 = Navigation_1{[warehouseId = "40aeda1c-af29-4c1d-8539-39ff98ada564"]}[Data],
   TableNavigation = Navigation_2{[Item = "Salary_Data", Schema = "dbo"]}?[Data]?
 in
   TableNavigation;
