@@ -11,7 +11,7 @@
       "queryName": "Salary_Data"
     },
     "Salary_Data_DataDestination": {
-      "queryId": "206009ba-e09b-4ac1-861d-baacfaa610f3",
+      "queryId": "1ac64f78-10e0-4b23-8c24-e48b5ab4a0c4",
       "queryName": "Salary_Data_DataDestination",
       "isHidden": true,
       "loadEnabled": false
